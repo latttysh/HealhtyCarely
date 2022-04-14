@@ -1,0 +1,59 @@
+.first
+  padding-top: 40px
+.header
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  margin-bottom: 100px
+  &__logo
+    font-weight: 700
+    font-size: 24px
+    line-height: 33px
+  &-links
+    &__item
+      &:not(:last-child)
+        margin-right: 40px
+  &-buttons
+    &__signin
+      font-weight: 500
+      font-size: 14px
+      line-height: 20px
+      letter-spacing: 0.03em
+      color: $black
+      margin-right: 20px
+    &__signup
+      width: 97px
+.hero
+  display: flex
+  justify-content: space-between
+  &-info
+    &__title
+      font-weight: 700
+      font-size: 54px
+      line-height: 70px
+      letter-spacing: 0.02em
+      color: $black
+      max-width: 644px
+      margin-bottom: 26px
+    &__subtitle
+      +description
+      width: 601px
+      margin-bottom: 26px
+    &__button
+      width: 162px
+  &__img
+    position: relative
+    margin-bottom: -20px
+    width: 445px
+    height: 550px
+    top: -65px
+
+.circle__blue
+  top: 50px
+  right: -300px
+  z-index: -5
+  width: 1240px
+  height: 1240px
+  background-color: $primary
+  border-radius: 100%
+  position: absolute

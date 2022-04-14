@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  max-width: 77.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button {
+  height: 3.25rem;
+  background: #4D77FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+
+.first {
+  padding-top: 40px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 100px;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.header-links__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-buttons__signin {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-right: 20px;
+}
+
+.header-buttons__signup {
+  width: 97px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-info__title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: #121212;
+  max-width: 644px;
+  margin-bottom: 26px;
+}
+
+.hero-info__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #696969;
+  width: 601px;
+  margin-bottom: 26px;
+}
+
+.hero-info__button {
+  width: 162px;
+}
+
+.hero__img {
+  position: relative;
+  margin-bottom: -20px;
+  width: 445px;
+  height: 550px;
+  top: -65px;
+}
+
+.circle__blue {
+  top: 50px;
+  right: -300px;
+  z-index: -5;
+  width: 1240px;
+  height: 1240px;
+  background-color: #4D77FF;
+  border-radius: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
